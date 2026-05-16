@@ -16,7 +16,7 @@ else:
 reps_per_speed = 1
 min_height =  20  # in mm
 max_height =  30  # in mm
-
+ 
 # Dwell times in seconds
 dwell_time_bottom = 1 # seconds at bottom position
 dwell_time_top = 1     # seconds at top position
