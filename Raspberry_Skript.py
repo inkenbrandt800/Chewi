@@ -19,8 +19,8 @@ TIMEOUT_ABBRUCH = 500        # Sekunden unter Schwelle bis zum Ende
 load_dotenv('/mnt/data/.env')
 EMAIL_SENDER = os.getenv("EMAIL_SENDER")
 EMAIL_PASSWORT = os.getenv("EMAIL_PASSWORT")
-EMAIL_EMPFAENGER = "inkenmbrandt@gmail.com"
-SMTP_SERVER = "smtp.th-wildau.de"
+EMAIL_EMPFAENGER = os.getenv("EMAIL_EMPFAENGER")
+SMTP_SERVER = os.getenv("SMTP_SERVER")
 SMTP_PORT = 25
 
 # --- INITIALISIERUNG ---
